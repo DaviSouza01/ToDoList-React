@@ -5,7 +5,7 @@ import Button from "./Button.jsx"
 import "./AddTask.css"
 
 const AddTask = ({ handleTaskAddition }) => {
-    const [inputData, setInputData] = useState();
+    const [inputData, setInputData] = useState("");
 
     const handleInputChange = (e) => {
         setInputData(e.target.value);
